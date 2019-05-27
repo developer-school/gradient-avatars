@@ -1,0 +1,93 @@
+.avatar {
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  margin: 20px;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: rotate(36deg);
+}
+
+.avatar:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+.avatar > h2 {
+  padding-top: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.gradient__red_yellow {
+  background: #ff5f6d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0px 0px 20px #ff5f6d;
+}
+
+.gradient__purple_teal {
+  background: #fc00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #00dbde,
+    #fc00ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #00dbde,
+    #fc00ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gradient__pink {
+  background: #f857a6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff5858,
+    #f857a6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff5858,
+    #f857a6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gradient__green {
+  background: #1cd8d2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #93edc7,
+    #1cd8d2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #93edc7,
+    #1cd8d2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.gradient__violet {
+  background: #4776e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8e54e9,
+    #4776e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8e54e9,
+    #4776e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
